@@ -1,0 +1,3 @@
+---
+- include: tasks/oah-install.yml
+  when: oah_command == "install"
